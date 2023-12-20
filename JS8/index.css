@@ -1,0 +1,47 @@
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: green;
+    margin-top: 10px;
+}
+
+.monitor-0 {
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+}
+
+.monitor-1 {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}
+
+.pc {
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.keyboard-0 {
+    width: 40px;
+    height: 10px;
+    background-color: yellow;
+}
+
+.keyboard-1 {
+    width: 40px;
+    height: 10px;
+    background-color: greenyellow;
+}
+
+/* BEM: Block, Element, Mod */
+.monitor__state--disabled {
+    background-color: black;
+}
